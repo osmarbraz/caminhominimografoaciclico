@@ -5,6 +5,8 @@
  * Disciplinas: Projeto e Análise de Algoritmos
  * Prof Alexandre Gonçalves da Silva 
  *
+ * Baseado nos slides 53 da aula do dia 27/10/2017  
+ *
  * Página 477 Thomas H. Cormen 3a Ed 
  *
  * Caminho mínimos de fonte única em grafos acíclicos dirigidos
