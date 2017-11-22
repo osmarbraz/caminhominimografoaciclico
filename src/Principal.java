@@ -294,7 +294,7 @@ public class Principal {
 //                {0, 0, 0, 0, 0, 0},//z
 //                {0, 5, 3, 0, 0, 0}}; //r
 
-        System.out.println("CCaminho mínimos de fonte única em grafos acíclicos dirigidos");
+        System.out.println(">>> Caminho mínimos de fonte única em grafos acíclicos dirigidos <<<");
 
         //Executa o algoritmo
         int s = destrocar('s');
