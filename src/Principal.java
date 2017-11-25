@@ -10,6 +10,7 @@
  * Página 477 Thomas H. Cormen 3a Ed 
  *
  * Caminho mínimos de fonte única em grafos acíclicos dirigidos/Shortest Path in Direct Acyclic Graph(DAG)
+ * 
  */
 
 /**
@@ -233,8 +234,6 @@ public class Principal {
     /**
      * Executa o algoritmo de Belmman-Ford para Caminhos Mínimos de fonte única.
      * 
-     * DAG-SHORTEST-PATHS(G,w, s)
-     *
      * Encontra a distância mais curta de s para todos os outros vértices.
      * Retorna se existe ciclo negativo no grafo.
      *
