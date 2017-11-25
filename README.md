@@ -1,4 +1,4 @@
-# Árvore Geradora Minima com o Algoritmo de Kruskal
+# Caminho mínimos de fonte única em grafos acíclicos dirigidos/Shortest Path in Direct Acyclic Graph(DAG)
 Universidade Federal de Santa Catarina - UFSC<br>
 Departamento de Informática e Estatística - INE<br>
 Programa de Pós-Graduação em Ciências da Computação - PROPG<br>
