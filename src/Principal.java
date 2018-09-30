@@ -72,7 +72,7 @@ public class Principal {
     /**
      * Mostra o caminho de s até v no grafo G
      *
-     * @param G Matriz de incidência do grafo
+     * @param G Matriz de adjacência do grafo
      * @param s Origem no grafo
      * @param v Destino no grafo
      */
@@ -94,8 +94,9 @@ public class Principal {
      *
      * Método DFS-Visit(G,u)
      *
-     * @param G Matriz de incidência do grafo
+     * @param G Matriz de adjacência do grafo
      * @param u Vértice raiz da árvore de busca
+     * @param lista Lista das 
      */
     public static void buscaEmProfundidadeVisita(int[][] G, int u, LinkedList lista) {
         //Quantidade vértices do grafo
@@ -133,6 +134,7 @@ public class Principal {
      * Método DFS(G)
      *
      * @param G Grafo na forma de uma matriz de adjacência
+     * @param lista lista de arestas
      */
     public static void buscaEmProfundidadeRecursivo(int[][] G, LinkedList lista) {
         //Quantidade vértices do grafo
@@ -169,6 +171,7 @@ public class Principal {
      * Tempo Theta(V+E)
      *
      * @param G Grafo na forma de uma matriz de adjacência a ser ordenado
+     * @return A lista de arestas com menor custo
      */
     public static List ordenacaoTopologica(int[][] G) {
         //Lista do retorno da ordenação topologica
@@ -239,8 +242,8 @@ public class Principal {
      *
      * Complexidade do algoritmo é O(E lg E)
      *
-     * @param G Matriz de indicência da árvore
-     * @return Vetor com a lista das arestas de menor custo
+     * @param G Matriz de adjacência da árvore
+     * @param s Vértice de início
      */
     public static void caminhosMinimosDAG(int[][] G, int s) {
 
